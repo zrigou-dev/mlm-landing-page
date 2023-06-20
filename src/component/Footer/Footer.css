@@ -1,0 +1,11 @@
+.footer{
+    background-color: #10256F;
+    text-align: center;
+    padding: 6px;
+}
+.footer h4{
+    color: #fff;
+    font-family: 'Proppins-Regular';
+    font-size: 15px;
+    transform: translateY(30%);
+}

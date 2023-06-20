@@ -1,0 +1,76 @@
+.program-slid {
+    margin-top: 30px;
+  padding: 40px 0;
+}
+.program-slid h5{
+    margin-bottom: 40px;
+}
+.slid {
+  background-color: #fff;
+  padding: 20px 40px;
+  height: 500px !important;
+  border-radius: 10px;
+  position: relative;
+  cursor: grab;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+.slid h2 {
+  font-size: 62px;
+  text-align: center;
+  color: #01143e;
+  margin-bottom: 10px;
+  font-family: 'Proppins-ExtraLight';
+}
+.slid h3 {
+  text-align: center;
+  color: #ebb03a;
+  font-family: 'Bold';
+  font-size: 22px ;
+}
+.slid h3 span{
+  font-family: 'Proppins-light';
+}
+.slid p {
+  margin-top: 10px;
+  font-family: 'Proppins-Regular';
+  font-size: 15px;
+  color: #01143E;
+  line-height: 28px;
+}
+.first-par-slid {
+  margin-top: 40px !important;
+}
+.program-slid .swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction{
+  position: relative;
+  z-index: 4;
+  bottom: 0%;
+}
+.program-slid .swiper-button-next{
+  left: 85%;
+  color: #707070 !important;
+}
+.program-slid .swiper-button-prev{
+  position: relative;
+  bottom: -56px !important;
+  left:7% ;
+  color: #707070 !important;
+}
+.program-slid .swiper-button-next {
+   position: relative !important;
+   bottom: -35px;
+   text-align: center !important;
+}
+.program-slid .swiper-button-next::after , .program-slid .swiper-button-prev::after{
+  font-size: 25px;
+}
+.swiper-pagination-bullet-active{  
+  color: #707070 !important;
+  width: 10px !important;
+  height: 10px !important;
+  background-color: #707070 !important;
+}
+@media screen and (max-width: 769px){
+  .program-slid .swiper-button-next , .program-slid .swiper-button-prev{
+    display: none;
+  }
+}

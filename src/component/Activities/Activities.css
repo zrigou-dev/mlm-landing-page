@@ -1,0 +1,54 @@
+.activities{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.activities img{
+    width: 100%;
+}
+.img-response{
+    transform: translateY(20%);
+    width: 40%;
+}
+.img-goal{
+    width: 40% !important;
+    transform: translate(10% , 20%);
+}
+.img-response , .img-goal{
+    text-align: center !important;
+}
+.activities .list-goals{
+    margin-top: 40px ;
+}
+h5{
+    max-width: 700px;
+    margin: auto;
+}
+.act-list{
+    margin-top: 30px ;
+}
+.quasiment {
+    margin-top: 45px !important ;
+}
+.quasiment h5{
+    margin-bottom: 60px;
+}
+.icon-bad{
+    color: red;
+    margin-right: 10px;
+}
+.footer-activ{
+    max-width: 1000px !important;
+    margin-top: 40px;
+    padding-bottom: 30px;
+}
+@media screen and (max-width: 769px){
+    .act-list{
+        margin-top: -60px !important;
+    }
+    .img-goal{
+        width: 60% !important;
+        text-align: center;
+        margin: auto;
+        padding-bottom: 100px;
+    }
+}

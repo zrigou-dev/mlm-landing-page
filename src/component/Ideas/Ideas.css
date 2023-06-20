@@ -1,0 +1,70 @@
+.ideas{
+   background-color: #ebb03a78; 
+   padding-top: 40px;
+}
+.ideas h5{
+    margin-bottom: 50px;
+}
+.idea-col h2{
+    font-size: 108px;
+    font-family: 'Proppins-Regular';
+    text-align: center;
+    color: #EBB03A;
+}
+.idea-col p{
+    text-align: center;
+    font-family: 'Proppins-Regular';
+    font-size: 18px;
+}
+.btn-idea{
+    margin-top: 30px;
+    text-align: center;
+    padding-bottom: 40px;
+}
+.btn-idea button{
+    font-family: 'Bold';
+    font-size: 18px;
+    transform: translateX(-12px);
+}
+.personal{
+    margin-top: 25px;
+}
+.first-personal div{
+    background-color: #fff;
+    position: relative;
+    border-radius: 8px;
+    width: 95% !important;
+    margin: 30px 0px;
+    box-shadow: 0px 3px 6px #00000016;
+}
+.first-personal div h4{
+    padding-top: 50px !important;
+    text-align: center;
+    color: #01143E;
+    font-family: 'BoldItalic';
+    font-size: 15px;
+}
+.first-personal{
+    text-align: center;
+}
+.first-personal div{
+    padding-bottom: 20px;
+}
+.first-personal div p{
+    margin: auto;
+    text-align: center;
+    width: 90%;
+    font-family: 'Proppins-Regular';
+    font-size: 15px;
+}
+.first-personal div img{
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    width: 80px;
+    border-radius: 50%;
+    transform: translate(-50% , -50%);
+}
+.personal{
+    padding-bottom: 20px;
+}

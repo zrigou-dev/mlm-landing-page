@@ -1,0 +1,38 @@
+.faq{
+    margin-top: 36px;
+    padding-bottom: 90px;
+}
+.faq h5{
+    margin-bottom: 40px;
+}
+.faq .accordion-button:not(.collapsed)::after{
+    display: none !important;
+}
+.faq .accordion-button::after{
+    display: none;
+}
+.faq .accordion-button{
+    position: relative;
+}
+.faq .accordion-button h4{
+    font-family: 'Proppins-SemiBold';
+    font-size: 15px;
+    width: 93%;
+}
+.faq .accordion-button img{
+    position: absolute;
+    right: 3%;
+    transform: rotate(-90deg);
+    transition: .2s;
+}
+.faq .collapsed img{
+    transform: rotate(0deg);
+}
+.faq .accordion-body {
+    font-family: 'Proppins-Regular';
+    font-size: 15px;
+    color: #01143E;
+}
+.faq .accordion-item{
+    margin-bottom: 20px;
+}

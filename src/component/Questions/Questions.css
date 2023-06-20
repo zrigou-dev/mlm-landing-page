@@ -1,0 +1,58 @@
+.qst{
+    background-color: #ebb03a78;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.qst .row{
+    align-items: center !important;
+}
+.qst h5{
+    margin-bottom: 20px;
+}
+.img-cover{
+    text-align: center;
+    margin: auto;
+}
+.qst img{
+    width: 85%;
+    transform: translateY(15%);
+}
+@media screen and (min-width: 770px){
+   .qst .list-goals{
+    margin-top: 80px;
+   }
+   .btn-qst{
+    margin-top: 20px !important;
+   }
+}
+@media screen and (max-width: 991px){
+    .qst img{
+       width: 100%;
+       transform: translateY(50%);
+    }
+}
+@media screen and (max-width: 769px){
+    .qst img{
+       transform: translateY(0%);
+    }
+}
+@media screen and (min-width: 1400px){
+   .qst img{
+    transform: translateY(-70px);
+   }
+   .btn-qst h5{
+    margin-top: 20px;
+   }
+}
+
+
+.btn-qst{
+    text-align: center;
+}
+.qst .btn-reserve{
+    max-width: 350px ;
+    width: 100%;
+    font-family: 'Bold';
+    font-size: 22px;
+    padding:10px 0px ;
+}

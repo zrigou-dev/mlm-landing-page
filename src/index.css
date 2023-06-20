@@ -1,13 +1,34 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+@font-face {
+    font-family: 'Proppins-Black';
+    src: url('../src/font/Poppins-Black.ttf') ;
+  }
+@font-face {
+    font-family: 'Proppins-SemiBold';
+    src: url('../src/font/Poppins-SemiBold.ttf') ;
+  }
+@font-face {
+    font-family: 'Bold';
+    src: url('../src/font/Poppins-Bold.ttf') ;
+  }
+@font-face {
+    font-family: 'BoldItalic';
+    src: url('../src/font/Poppins-BoldItalic.ttf') ;
+  }
+
+@font-face {
+    font-family: 'Proppins-medium';
+    src: url('../src/font/Poppins-Medium.ttf') ;
+  }
+@font-face {
+    font-family: 'Proppins-light';
+    src: url('../src/font/Poppins-Light.ttf') ;
+  }
+@font-face {
+    font-family: 'Proppins-ExtraLight';
+    src: url('../src/font/Poppins-ExtraLight.ttf') ;
+  }
+@font-face {
+    font-family: 'Proppins-Regular';
+    src: url('../src/font/Poppins-Regular.ttf') ;
+  }

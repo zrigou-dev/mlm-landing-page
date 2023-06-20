@@ -1,0 +1,164 @@
+.guarantee{
+  padding-top: 50px;
+}
+.cols-acheter{
+  justify-content: space-between !important;
+  margin-top: 10px !important;
+}
+.guarantee p {
+  color: var(--main-color);
+}
+.guarantee h5 span {
+  display: block;
+  margin-top: 10px !important;
+  color: #01143E;
+  font-size: 15px;
+  font-family: 'Poppins-Regular';
+  text-align: center;
+}
+.guarantee h5{
+  font-size: 15px;
+  font-family: 'Proppins-Regular' !important;
+}
+.booster-mlm{
+  background-color: #f1e1c0;
+}
+.booster-mlm  p span{
+  text-decoration: line-through;
+  opacity: 0.7;
+}
+.booster-mlm ul{
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+.pro-mlm{
+  background-color: #fff;
+}
+.booster-mlm ,.pro-mlm {
+  padding: 40px 0 20px !important;
+  border-radius: 10px;
+  margin-top: 70px !important;
+  position: relative;
+  margin: auto;
+  max-width: 539px !important ;
+}
+.pro-mlm button{
+   cursor: not-allowed !important;
+   opacity: 0.7;
+}
+.garantie-image {
+  width: 100px;
+  position: absolute;
+  top: 0;
+  right: -60px;
+  transform: translate(-50%, -50%);
+}
+.head-col-gar{
+  font-family: 'Proppins-Black';
+  font-size: 22px;
+  color: #10256F;
+  margin-top: 40px;
+  line-height: 30px;
+}
+.pro-mlm h3,
+.pro-mlm p , .booster-mlm h3 , .booster-mlm p {
+  text-align: center;
+  max-width: 236px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.booster-mlm p{
+   font-family: 'Proppins-SemiBold';
+   font-size: 15px;
+}
+.booster-mlm h4{
+  font-family: 'Proppins-Black';
+  font-size: 22px;
+  color: #10256F;
+  text-align: center;
+}
+.logo-guarante {
+  text-align: center;
+}
+.btn-buy {
+  text-align: center;
+}
+.btn-buy button {
+  width: 90% !important;
+  margin-top: 20px;
+  font-family: 'Bold';
+  font-size: 18px;
+}
+.guarantee ul{
+  max-width: 305px;
+  margin-left:auto ;
+  margin-right:auto ;
+}
+.guarantee ul li{
+  font-family: 'Proppins-Regular';
+  font-size: 15px;
+  
+}
+.guarantee a:hover{
+  color: #fff;
+}
+/* *************************************************************** */
+.rating {
+  margin-top: 70px !important;
+}
+.rating h5 {
+  margin-bottom: 50px !important;
+}
+.rating-col {
+  margin-bottom: 20px;
+  text-align: center;
+  /* margin-left:auto !important;
+  margin-right: auto !important;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%); */
+}
+.contain-rating {
+  background-color: #fff;
+  border-radius: 10px;
+  width: 90%;
+  padding: 20px 30px !important;
+  color: #01143e !important;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+.info-rating {
+  line-height: 7px;
+  margin-left: 20px;
+  text-align: start;
+}
+.info-rating h4{
+  font-family: 'Proppins-SemiBold';
+  font-size: 20px;
+}
+.info-rating p{
+  font-family: 'Proppins-light';
+  font-size: 16px;
+}
+.info-rating .first {
+  line-height: 20px !important;
+}
+.total-info {
+  display: flex;
+  margin-bottom: 20px;
+}
+.disc-rating {
+  text-align: start;
+  font-family: 'Proppins-Regular';
+  font-size: 15px;
+}
+
+@media screen and (max-width: 769px){
+  .rating-col {
+    margin-left: auto !important;
+    margin-right: auto !important;
+    margin-bottom: 40px;
+  }
+  .contain-rating{
+    margin: auto;
+  }
+}
